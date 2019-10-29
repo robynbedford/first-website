@@ -1,0 +1,129 @@
+body{
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;  
+    font-size:1.1rem;
+    background-color:#333333;
+    line-height: 1.4rem;
+}
+
+header{
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+    background-image: url("/img/header-bg1.jpeg");
+    background-size:cover;
+    background-position: center center;
+    height: 80vh;    
+}
+
+.paragraph-1{
+    padding-top: 3rem;
+}
+
+.button{
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    text-decoration: none;
+    padding :1em 2em 1em 2em;
+    background-color: #333333;
+    border-color:#555555;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+       
+a:link{
+color:white;
+text-decoration: none;
+}
+
+a:hover{
+    background: #eaeaea;
+    color:#333333;
+}
+
+.experience{
+    padding: 1rem 10rem 2rem 10rem;
+    background-color: #eaeaea;
+}
+
+.heading-2{
+    padding-bottom: 1.5rem;
+}
+.paragraph-2{
+    display: inline-block;
+    padding-top: 1rem;
+    color: black;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.languages-box{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: white;
+}
+
+.frameworks{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: white;
+}
+
+.applications{
+    background-color: white;
+    margin-top: 0.5rem;
+}
+
+.row-headings{
+    padding-top: 1rem;
+    padding-bottom:1rem;
+}
+
+.row-paragraphs{
+    padding: 0 2rem 2rem 2rem;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.employers{
+    color:white;
+    background-color: #2690d4;
+}
+
+.contact-me{
+    background-color: white;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.created{
+    color:white;
+    background-color: black;
+    padding: 2rem;
+}
+
+.social-media{
+    padding: 2rem;
+    background-color: black;
+    color:white;
+}
+.social-media > i 
+{
+    padding : 1rem 2rem;
+}
